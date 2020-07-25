@@ -1,14 +1,15 @@
 $(document).ready(function(){
-	var altura = 830;
+	var altura = 900;
 
         
         $(window).on('scroll', function(){
             if ( $(window).scrollTop() > altura ){
-                $('.navbar').addClass('logo2','img_logo');
+                $('.navbar').addClass('logo2');
             } else {
-                $('.navbar').removeClass('logo2','img_logo');
+                $('.navbar').removeClass('logo2');
             }
         });
      
    
 });
+

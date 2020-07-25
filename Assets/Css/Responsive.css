@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+
+    .container {
+     width: 540px;
+    }
+    .row-col > * {
+        flex: 0 0  98%;
+        min-width: 100%;
+    }
+    
+      /*--------------------Nabvar---------------------------*/
+
+
+}
+
+  
+
+
+@media (max-width: 768px) {
+
+    .row-col > * {
+        flex: 0 0  48%;
+        max-width: 50%;
+    }
+
+      /*--------------------Nabvar---------------------------*/
+}
+  
+
+
+@media (max-width: 992px) {
+
+    .container {
+      max-width: 960px;
+    }
+    
+    /*--------------------Nabvar---------------------------*/
+}
+  
+
+
+@media (max-width: 1200px) {
+
+    .container {
+      max-width: 1140px;
+    }
+
+    /*--------------------Nabvar---------------------------*/
+}

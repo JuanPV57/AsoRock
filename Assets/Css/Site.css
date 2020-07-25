@@ -3,6 +3,11 @@ body{
     margin: 0;
     background-color: #f0ecec;
 }
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .header{
     background-image: url(../Img_bg/bg_header.jpg);
@@ -12,18 +17,19 @@ body{
     min-height: 650px;
     position: relative;
 }
-.logo{
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    top: 85%;
-    left: 20%;
-    z-index: 1;
-}
 
-.logo img{
-    width: 100%;
-}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .row-col > * {
+    flex: 0 0  24%;
+    max-width: 25%;
+  }
+/*--------------------Nabvar---------------------------*/
 
 .navbar{
     background-color: black;
@@ -32,6 +38,7 @@ body{
     position: relative;
     transition: all 1s ease;
     margin-bottom: 3%;
+    z-index: 1000;
     
 }
 .logo2{
@@ -39,18 +46,14 @@ body{
     background-color: rgba(0, 0, 0, 0.863);
     top: 0;
 }
-.img_logo1{
-    display: none;
-}
+
 
 .img_logo{
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 15%;
-    left: 25%;
-    transition: all 1s ease;
+    left: 27%;
 }
 
 .navbar h1{
@@ -114,43 +117,88 @@ body{
      transition: width .3s;
 }
 
+/*--------------------------Index------------------------------*/
  .seccion{
      width: 100%;
-     max-width: 1200px;
-     margin: auto;
      display: grid;
      grid-gap: 20px;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(8, auto);
-     grid-template-areas: "new new publicidad" "reproductor reproductor reproductor" "Imagenes Imagenes Descripcion";
+     grid-template-areas: "new new new" " publicidad publicidad publicidad" "reproductor reproductor reproductor" "Imagenes Imagenes Descripcion";
  }
 
- .new{
+ .seccion .new{
      grid-area: new;
      background-color: #ffffff;
-     width: 100%;
+     margin-top: -3%;
+     
  }
 
- .new h2{
-    font-size: 1.2em;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #555454;
-     letter-spacing: 0.2em;
-     font-weight: normal;
-     margin-left: 10px;
+ .seccion .new .articulos{
+     height: 400px;
+     background-color: #0c9275;
+     margin: 0.2em;
+     margin-left: 5px;
+     
  }
-.new .post p{
-    font-size: 0.8em;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #555454;
-     letter-spacing: 0.2em;
-     font-weight: normal;
-     margin-left: 85%;
+ .seccion .new .articulos .Img_contenedor{
+     position: relative;
+     overflow: hidden;
+ }
+ .seccion .new .articulos .Img_contenedor img{
+    width: 100%;
+    height: 400px;
 }
- .new .post img{
-     width: 97%;
-     margin: 10PX;
- }
+
+.seccion .new .articulos .Img_contenedor .bg{
+    position: absolute;
+    background-color: #00000028;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    transition: all 0.5s ;
+    cursor: pointer;
+   
+}
+.seccion .new .articulos .Img_contenedor .bg:hover {
+    background-color: #000000b4;
+
+}
+.seccion .new .articulos .Img_contenedor .contenido{
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    transform: translateY(130%);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    
+}
+
+.seccion .new .articulos .Img_contenedor:hover .contenido{
+    transform: translateY(90%);
+}
+.seccion .new .articulos .Img_contenedor .contenido p,h2{
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0.5em;
+    
+}
+.seccion .new .articulos .Img_contenedor .contenido a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 70%;
+}
+
+
+
+
+
+
+
+
+
 
  .publicidad{
      grid-area: publicidad;
@@ -203,28 +251,5 @@ body{
      height: 150px;
  }
 
- .Musica .reproductor .botones .fa-play{
-    color: #000000;
-    font-size: 50px;
-    padding: 20px;
-    border: solid 2px #000000;
-    border-radius: 100%;
- }
 
- .Imagenes{
-     grid-area: Imagenes;
-     background-color: #ffffff;
-     width: 100%;
-     
- }
 
- .Descripcion{
-     grid-area: Descripcion;
-     background-color: #ffffff;
-     width: 100%;
-     height: 220px;
- }
- .Imagenes img{
-     width: 100%;
-     height: 400px;
- }
