@@ -74,12 +74,17 @@ body{
 }
 
 .redes i{
-    color:  #e6e1e1;
-    font-size: 25px;
-    margin: 0 5px;
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid;
+    transition: 0.3s;
 }
 .redes i:hover{
-    color:  #fffefe;
+    color: black;
+    background: white;
 }
 
 .menu{
@@ -87,6 +92,7 @@ body{
     justify-content: space-evenly;
     padding-top: 3%;
 }
+
 .menu ul{
     display: flex;
     list-style: none;
