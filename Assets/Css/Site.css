@@ -11,6 +11,7 @@ body{
 }
 .container{
     width: 100%;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -205,13 +206,6 @@ body{
 
 
 
-
-
-
-
-
-
-
  .publicidad{
      grid-area: publicidad;
      background-color: #000000;
@@ -293,7 +287,7 @@ body{
     height: 200px;
 }
 
-h2{
+.footer h2{
     margin: 10px 0;
     color: grey;
     font-size: 18px;
@@ -301,50 +295,50 @@ h2{
     text-transform: uppercase;
 }
 
-.border{
+.footer .border{
     height: 2px;
     width: 40px;
     background: #fff;
 }
 
-ul{
+.footer ul{
     list-style: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
 
-ul a{
+.footer ul a{
     text-decoration: none;
     outline: none;
     color: #fff;
     transition: 0.3s;
 }
 
-ul a:hover{
+.footer ul a:hover{
      color: #ff9800;
 }
 
-ul li{
+.footer ul li{
     margin: 10px 0;
     height: 25px;
 }
 
-li i{
+.footer li i{
     margin-right: 20px;
 }
 
-.social-media{
+.footer .social-media{
     width: 100%;
     color: #fff;
     text-align: center;
 }
 
-.social-media a{
+.footer .social-media a{
     text-decoration: none;
 }
 
-.social-media i{
+.footer .social-media i{
     height: 15px;
     width: 15px;
     margin: 20px 5px;
@@ -355,17 +349,15 @@ li i{
     transition: 0.3s;
 }
 
-.social-media i:hover{
+.footer .social-media i:hover{
     color: black;
     background: white;
 }
 
-.footer-bottom{
+.footer .footer-bottom{
     padding: 10px;
     background: grey;
     color: #fff;
     font-size: 12px;
 }
-
-
 
