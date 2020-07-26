@@ -357,7 +357,14 @@ body{
 .footer .footer-bottom{
     padding: 10px;
     background: grey;
+    height: 30px;
+    
+}
+.footer .footer-bottom p{
     color: #fff;
     font-size: 12px;
+    text-align: center;
 }
-
+.footer .footer-bottom p span{
+    color: #ff9800;
+}
