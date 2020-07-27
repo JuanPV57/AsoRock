@@ -158,6 +158,71 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="Img_agremiados">
+                                <div>
+                                    <img  src="./Img/RAION-1.jpg" alt="">
+                                    <h4 class="Nombre_banda">Nombre de la Banda</h4>
+                                </div>
+                                
+                                <div class="bg_agremiados">
+                                    <div class="redes_agremiados">
+                                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-youtube"></i></a>
+                                        <button>ver perfil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Img_agremiados">
+                                <div>
+                                    <img  src="./Img/RAION-1.jpg" alt="">
+                                    <h4 class="Nombre_banda">Nombre de la Banda</h4>
+                                </div>
+                                
+                                <div class="bg_agremiados">
+                                    <div class="redes_agremiados">
+                                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-youtube"></i></a>
+                                        <button>ver perfil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Img_agremiados">
+                                <div>
+                                    <img  src="./Img/RAION-1.jpg" alt="">
+                                    <h4 class="Nombre_banda">Nombre de la Banda</h4>
+                                </div>
+                                
+                                <div class="bg_agremiados">
+                                    <div class="redes_agremiados">
+                                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-youtube"></i></a>
+                                        <button>ver perfil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Img_agremiados">
+                                <div>
+                                    <img  src="./Img/RAION-1.jpg" alt="">
+                                    <h4 class="Nombre_banda">Nombre de la Banda</h4>
+                                </div>
+                                
+                                <div class="bg_agremiados">
+                                    <div class="redes_agremiados">
+                                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-youtube"></i></a>
+                                        <button>ver perfil</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
                     </div>
                     
                 </div>
