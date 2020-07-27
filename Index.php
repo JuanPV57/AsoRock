@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./Assets/Css/Site.css">
     <link rel="stylesheet" href="./Assets/Css/Responsive.css">
 
+     <!--Estilos CSS BOOTSTRAP-->
+     <link rel="stylesheet" href="assets/css/bootstrap.css">
+
     <!--Fuente letra-->
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
@@ -21,8 +24,8 @@
     <div class="header">
 
     </div>
-    <div  class="navbar logo2">
-        <img class="img_logo img_logo1" src="./Img/logo_asorock.png" alt="">
+    <div  class="navbars logo2">
+        <img class="img_logo " src="./Img/logo_asorock.png" alt="">
         <h1>AsoRock Medellin</h1>
         <div class="redes">
             <a href=""><i class="fa fa-facebook"></i></a>
@@ -39,9 +42,7 @@
         </div>
     </div>
    
-
-        <div class="seccion">
-            <div class="new row row-col">
+            <div class="new row ">
                <div class="articulos">
                    <div class="Img_contenedor">
                         <img src="./Img/RAION-1.jpg" alt="">
@@ -57,42 +58,116 @@
                    </div> 
                </div>
 
-            <div class="articulos">
-                
-            </div>
-            <div class="articulos">
-                
-            </div>
-            <div class="articulos">
-                
-            </div>
-            </div>
-
-            <div class="publicidad container">
-                <div class="publicidad_titulo">
-                    <h3>Agremiados</h3>
+                <div class="articulos">
+                    
                 </div>
-                <div class="">
+                <div class="articulos">
+                    
+                </div>
+                <div class="articulos">
                     
                 </div>
             </div>
+            <div class="seccion container">
             
-            <div class="Musica container">
-                 <h2>Musica</h2>
-                 <div class="reproductor">
-                    <img src="./Img/RAION-1.jpg" alt="">
-                   <div class="botones">
-                   
-                   </div>
-                 </div>
-            </div>
+                <div class="bio ">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis perferendis, iusto quasi dolore, quas, veniam assumenda dolorem reiciendis quae culpa provident architecto exercitationem quibusdam! Molestiae nesciunt voluptatibus quo autem?</p>
+                    <i class="fas fa-quote-right quote quote2"></i>
+                </div>
+                <div class="Publicidad ">
+                <p>Lorem ipsum dolor sit amet consectetur ?</p>
+                </div>
+
+                <div class="articulos2">
+                    <div class="row">
+                        
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        <div class="contenedor">
+                            <img src="./Img/RAION-1.jpg" alt="">
+                            <h3 class="Autor">By Jocz</h3>
+                            <div class="articulo_titulo">
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                            </div>
+                            <p class="Fecha">Fecha</p>
+                        </div>
+                        
+                        
+                       
+                    </div>
+
+                </div>
+
+                <div class="agremiados container">
+                    <div class="agremiados_titulo">
+                        <h3>Agremiados</h3>
+                    </div>
+                        <div class="row">
+                            <div class="Img_agremiados">
+                                <div>
+                                    <img  src="./Img/RAION-1.jpg" alt="">
+                                    <h4 class="Nombre_banda">Nombre de la Banda</h4>
+                                </div>
+                                
+                                <div class="bg_agremiados">
+                                    <div class="redes_agremiados">
+                                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href=""><i class="fa fa-youtube"></i></a>
+                                        <button>ver perfil</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+                </div>
+            
+            </div> 
                 
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <br><br><br><br><br><br><br><br><br>
             
 
-          
-        </div>
 
         <footer class="footer">
             <div class="inner-footer">
@@ -104,7 +179,7 @@
                     <h2>AsoRock</h2>
                     <div class="border"></div>
                     <ul>
-                        <a href=""><li>Inicio</li></a>
+                        <a href=""><li>Home</li></a>
                         <a href=""><li>¿Quiénes somos?</li></a>
                         <a href=""><li>Contacto</li></a>
                     </ul>
@@ -150,6 +225,8 @@
 
     <script src="./Assets/Js/jquery.js"></script>
     <script src="./Assets/Js/Scroll.js"></script>
+    <script src="./Assets/Js/bootstrap.js"></script>
+    <script src="./Assets/Js/bootstrap.min.js"></script>
 </body>
 </html>
 

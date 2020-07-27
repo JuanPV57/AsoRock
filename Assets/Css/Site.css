@@ -1,19 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif ;
 }
 
 body{
-    padding: 0;
-    margin: 0;
-    background-color: #f0ecec;
-}
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: #f0ecec !important;
 }
 
 .header{
@@ -22,23 +14,12 @@ body{
     background-size: cover;
     width: 100%;
     min-height: 650px;
-    position: relative;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
 
-  .row-col > * {
-    flex: 0 0  24%;
-    max-width: 25%;
-  }
 /*--------------------Nabvar---------------------------*/
 
-.navbar{
+.navbars{
     background-color: black;
     width: 100%;
     min-height: 90px; 
@@ -61,9 +42,10 @@ body{
     height: 80px;
     position: absolute;
     left: 27%;
+    padding: 5px;
 }
 
-.navbar h1{
+.navbars h1{
     color: #e6e1e1;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.8em;
@@ -131,39 +113,31 @@ body{
 }
 
 /*--------------------------Index------------------------------*/
- .seccion{
-     width: 100%;
-     display: grid;
-     grid-gap: 20px;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(8, auto);
-     grid-template-areas: "new new new" " publicidad publicidad publicidad" "reproductor reproductor reproductor" "Imagenes Imagenes Descripcion";
- }
+ 
 
- .seccion .new{
-     grid-area: new;
+.new{ 
+    width: 98%;
      background-color: #ffffff;
-     margin-top: -3%;
-     
+     margin: 1%;
+     margin-left: 10px !important;
  }
 
- .seccion .new .articulos{
+.new .articulos{
+     width: 365px;
      height: 400px;
      background-color: #0c9275;
-     margin: 0.2em;
-     margin-left: 5px;
-     
+     margin: 0.1em; 
  }
- .seccion .new .articulos .Img_contenedor{
+.new .articulos .Img_contenedor{
      position: relative;
      overflow: hidden;
  }
- .seccion .new .articulos .Img_contenedor img{
+.new .articulos .Img_contenedor img{
     width: 100%;
     height: 400px;
 }
 
-.seccion .new .articulos .Img_contenedor .bg{
+.new .articulos .Img_contenedor .bg{
     position: absolute;
     background-color: #00000028;
     width: 100%;
@@ -173,54 +147,151 @@ body{
     cursor: pointer;
    
 }
-.seccion .new .articulos .Img_contenedor .bg:hover {
+.new .articulos .Img_contenedor .bg:hover {
     background-color: #000000b4;
 
 }
-.seccion .new .articulos .Img_contenedor .contenido{
+.new .articulos .Img_contenedor .contenido{
     padding: 0 10px;
     position: absolute;
     width: 100%;
     height: 200px;
     top: 0;
-    transform: translateY(130%);
+    transform: translateY(122%);
     transition: all 0.5s ease-in;
     cursor: pointer;
     
 }
 
-.seccion .new .articulos .Img_contenedor:hover .contenido{
-    transform: translateY(90%);
+.new .articulos .Img_contenedor:hover .contenido{
+    transform: translateY(80%);
 }
-.seccion .new .articulos .Img_contenedor .contenido p,h2{
+.new .articulos .Img_contenedor .contenido p,h2{
     color: #ffffff;
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0.5em;
     
 }
-.seccion .new .articulos .Img_contenedor .contenido a{
+.new .articulos .Img_contenedor .contenido a{
     color: #ffffff;
     text-decoration: none;
     margin-left: 70%;
 }
 
+.seccion{
+    width: 100%;
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: "bio bio Publicidad""articulos2 articulos2 articulos2" " agremiados agremiados agremiados";
+}
 
 
- .publicidad{
-     grid-area: publicidad;
-     background-color: #000000;
+.seccion .bio{
+    grid-area: bio;
+    background-color: #070707;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.seccion .bio .quote{
+   color: #ff9800;
+   font-size: 30px;
+}
+
+.seccion .bio .quote2{
+   display: flex;
+   float: right;
+}
+
+.seccion .bio p{
+   color: #ffffff;
+   font-size: 1.5em;
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-align: justify;
+   margin: 10px;
+}
+
+.seccion .Publicidad{
+   grid-area: Publicidad;
+   background-color: #0c9275;
+   width: 100%;
+   margin-left: 20px;
+}
+.seccion .articulos2{
+    grid-area: articulos2;
      width: 100%;
-     height: 300px;
-     border-radius: 10px  10px 0 0;
-     
  }
- .publicidad_titulo{
+
+.seccion .articulos2 .contenedor{
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    background-color: #fff;
+    font-size: 12px; 
+    border-bottom: 1px solid #dcdcdc;
+    margin: 10px;
+    border: 0 solid;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.seccion .articulos2 .contenedor:hover{
+    border: #0c9275 10px solid;
+}
+
+.seccion .articulos2 .contenedor img{
+    width:  350px;
+}
+.seccion .articulos2 .contenedor .Autor{
+    margin: 0 20px 3px 20px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    color: #0c9275;
+}
+.seccion .articulos2 .contenedor .articulo_titulo{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.seccion .articulos2 .contenedor .articulo_titulo h2{
+    color: #070707;
+    
+    
+}
+.seccion .articulos2 .contenedor .articulo_titulo h2:hover{
+    color: #0c9275;
+}
+
+.seccion .articulos2 .contenedor .Fecha{
+    margin: 0 20px 3px 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    color: #0c9275;
+    float: right;
+}
+
+ .seccion .agremiados{
+     grid-area: agremiados;
+     background-color: #e6e3e3;
+     width: 100%;
+     padding: 0;
+ }
+ 
+ .seccion .agremiados_titulo{
      background-color: #ffffff;
      width: 100%;
      height: 50px;
-     border-radius: 8px  8px 0 0;
+     margin: 0;
  }
- .publicidad_titulo h3{
+ .seccion .agremiados_titulo h3{
      margin: 0;
      padding: 0.7em;
      text-align: center;
@@ -230,32 +301,62 @@ body{
      letter-spacing: 0.3em;
      font-weight: normal;
  }
-  
 
- .Musica{
-     grid-area: reproductor;
-     background-color: #ffffff;
-     width: 100%;
-     height: 220px;
+ .seccion .agremiados .Img_agremiados{
+     margin-top: 2%;
      padding: 10px;
+     overflow: hidden;;
+     position: relative;
+ }
+ .seccion .agremiados .Img_agremiados img{
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+    
+ }
+ .seccion .agremiados .Img_agremiados .Nombre_banda{
+     text-align: center;
+     font-size: 15px;
+     margin: 10px;
+     
  }
 
- .Musica h2{
-    font-size: 1.2em;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #555454;
-     letter-spacing: 0.2em;
-     font-weight: normal;
- }
- .Musica .reproductor{
-     
-     display: flex;
-     justify-content: space-between;
-}
- .Musica .reproductor img{
+ .seccion .agremiados  .bg_agremiados{
+   
+     background-color: #020202b2;
      width: 200px;
-     height: 150px;
+     height: 200px;
+     border-radius: 100%;
+     position: absolute;
+     top: 4%;
+     transform: translateY(200%);
+     
  }
+ .seccion .agremiados .bg_agremiados a{
+     color: #ffffff;
+     font-size: 28px;
+     padding: 2px;
+     
+ }
+ .seccion .agremiados  .bg_agremiados .redes_agremiados{
+     position: absolute;
+     top: 40%;
+     left: 15%;
+ }
+ .seccion .agremiados .Img_agremiados:hover .bg_agremiados{
+     transform: translateY(0%);
+ }
+
+
+
+
+
+
+
+
+
+
+
 
 
  /* ------------------------- Footer ----------------------- */
@@ -268,7 +369,6 @@ body{
 
 .inner-footer{
     width: 95%;
-    margin: auto;
     padding: 30px 10px;
     display: flex;
     flex-wrap: wrap;
@@ -280,6 +380,7 @@ body{
     width: 25%;
     padding: 10px 20px;
     box-sizing: border-box;
+    
 }
 
 .footer .inner-footer .footer-items img{
@@ -322,6 +423,7 @@ body{
 .footer ul li{
     margin: 10px 0;
     height: 25px;
+    font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
 .footer li i{
@@ -364,6 +466,7 @@ body{
     color: #fff;
     font-size: 12px;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif ;
 }
 .footer .footer-bottom p span{
     color: #ff9800;

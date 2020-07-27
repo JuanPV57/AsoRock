@@ -4,9 +4,9 @@ $(document).ready(function(){
         
         $(window).on('scroll', function(){
             if ( $(window).scrollTop() > altura ){
-                $('.navbar').addClass('logo2');
+                $('.navbars').addClass('logo2');
             } else {
-                $('.navbar').removeClass('logo2');
+                $('.navbars').removeClass('logo2');
             }
         });
      
