@@ -53,6 +53,7 @@ body{
     font-weight: normal;
     position: absolute;
     left: 42%;
+    color: #ff9800;
 }
 
 .redes{
@@ -123,10 +124,10 @@ body{
  }
 
 .new .articulos{
-     width: 365px;
-     height: 400px;
-     background-color: #0c9275;
-     margin: 0.1em; 
+     width: 200%;
+     height: 350px;
+     background-color: #ff9800;
+     margin: 0.3em; 
  }
 .new .articulos .Img_contenedor{
      position: relative;
@@ -134,14 +135,14 @@ body{
  }
 .new .articulos .Img_contenedor img{
     width: 100%;
-    height: 400px;
+    height: 350px;
 }
 
 .new .articulos .Img_contenedor .bg{
     position: absolute;
     background-color: #00000028;
     width: 100%;
-    height: 400px;
+    height: 350px;
     top: 0;
     transition: all 0.5s ;
     cursor: pointer;
@@ -157,14 +158,14 @@ body{
     width: 100%;
     height: 200px;
     top: 0;
-    transform: translateY(122%);
+    transform: translateY(117%);
     transition: all 0.5s ease-in;
     cursor: pointer;
     
 }
 
 .new .articulos .Img_contenedor:hover .contenido{
-    transform: translateY(80%);
+    transform: translateY(70%);
 }
 .new .articulos .Img_contenedor .contenido p,h2{
     color: #ffffff;
@@ -186,14 +187,14 @@ body{
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, auto);
-    grid-template-areas: "bio bio Publicidad""articulos2 articulos2 articulos2" " agremiados agremiados agremiados";
+    grid-template-areas: "bio bio bio""articulos2 articulos2 articulos2" " agremiados agremiados agremiados";
 }
 
 
 .seccion .bio{
     grid-area: bio;
     background-color: #070707;
-    width: 100%;
+    width: 95%;
     padding: 20px;
     border-radius: 20px;
 }
@@ -241,7 +242,7 @@ body{
 }
 
 .seccion .articulos2 .contenedor:hover{
-    border: #0c9275 10px solid;
+    border: #ff9800 10px solid;
 }
 
 .seccion .articulos2 .contenedor img{
@@ -253,7 +254,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
     line-height: 1.1;
-    color: #0c9275;
+    color: #ff9800;
 }
 .seccion .articulos2 .contenedor .articulo_titulo{
     width: 100%;
@@ -266,7 +267,7 @@ body{
     
 }
 .seccion .articulos2 .contenedor .articulo_titulo h2:hover{
-    color: #0c9275;
+    color: #ff9800;
 }
 
 .seccion .articulos2 .contenedor .Fecha{
@@ -274,7 +275,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 15px;
     line-height: 1.1;
-    color: #0c9275;
+    color: #ff9800;
     float: right;
 }
 
@@ -283,6 +284,7 @@ body{
      background-color: #e6e3e3;
      width: 100%;
      padding: 0;
+     border-radius: 10px;
  }
  
  .seccion .agremiados_titulo{
@@ -290,6 +292,7 @@ body{
      width: 100%;
      height: 50px;
      margin: 0;
+     border-radius: 10px 10px 0 0;
  }
  .seccion .agremiados_titulo h3{
      margin: 0;
@@ -349,16 +352,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
  /* ------------------------- Footer ----------------------- */
 
 .footer{
@@ -394,6 +387,7 @@ body{
     font-size: 18px;
     font-weight: lighter;
     text-transform: uppercase;
+    color: #ff9800;
 }
 
 .footer .border{

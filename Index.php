@@ -42,7 +42,8 @@
         </div>
     </div>
    
-            <div class="new row ">
+            <div class="new">
+            <div class="row row-cols-5">
                <div class="articulos">
                    <div class="Img_contenedor">
                         <img src="./Img/RAION-1.jpg" alt="">
@@ -50,8 +51,7 @@
                         
                             <div class="contenido">
                                 <p>By Jocz</p>
-                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
-                               
+                                <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol </h2>
                                 <a href="">Leer Mas</a>
                             </div>
                         </div>
@@ -68,6 +68,7 @@
                     
                 </div>
             </div>
+            </div>
             <div class="seccion container">
             
                 <div class="bio ">
@@ -75,9 +76,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis perferendis, iusto quasi dolore, quas, veniam assumenda dolorem reiciendis quae culpa provident architecto exercitationem quibusdam! Molestiae nesciunt voluptatibus quo autem?</p>
                     <i class="fas fa-quote-right quote quote2"></i>
                 </div>
-                <div class="Publicidad ">
-                <p>Lorem ipsum dolor sit amet consectetur ?</p>
-                </div>
+                
 
                 <div class="articulos2">
                     <div class="row">
@@ -88,7 +87,7 @@
                             <div class="articulo_titulo">
                                 <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
                             </div>
-                            <p class="Fecha">Fecha</p>
+                            <p class="Fecha">Leer mas</p>
                         </div>
                         <div class="contenedor">
                             <img src="./Img/RAION-1.jpg" alt="">
@@ -151,11 +150,10 @@
                                 <div class="bg_agremiados">
                                     <div class="redes_agremiados">
                                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                         <a href=""><i class="fa fa-youtube"></i></a>
-                                        <button>ver perfil</button>
                                     </div>
+                                    <button>ver perfil</button>
                                 </div>
                             </div>
                             <div class="Img_agremiados">
@@ -228,12 +226,8 @@
                 </div>
             
             </div> 
-                
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br>
+             
             
-
-
         <footer class="footer">
             <div class="inner-footer">
                 <div class="footer-items">                
@@ -283,7 +277,7 @@
             </div>
     
             <div class="footer-bottom">
-               <p>  Derechos de autor &copy; <span>AsoRock</span> 2020 | AsoRock. Todos los derechos reservados</p>.
+               <p>  Derechos de autor &copy; <span>AsoRock</span> 2020 | AsoRock. Todos los derechos reservados</p>
             </div>
     
         </footer>

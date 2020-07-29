@@ -666,9 +666,9 @@ pre code {
 }
 
 .row-cols-5 > * {
-  -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
-  max-width: 20%;
+  -ms-flex: 0 0 23%;
+  flex: 0 0 24%;
+  max-width: 100%;
 }
 
 .row-cols-6 > * {
