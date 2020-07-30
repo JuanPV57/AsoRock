@@ -41,7 +41,7 @@
             </ul>
         </div>
     </div>
-   
+   <a href=""></a>
             <div class="new">
             <div class="row row-cols-5">
                <div class="articulos">
@@ -57,7 +57,7 @@
                         </div>
                    </div> 
                </div>
-
+              
                 <div class="articulos">
                     
                 </div>
@@ -67,6 +67,7 @@
                 <div class="articulos">
                     
                 </div>
+                <a href="Articulo/view.php?id=<?php echo $row['Id']?>"></a>
             </div>
             </div>
             <div class="seccion container">
@@ -86,8 +87,9 @@
                             <h3 class="Autor">By Jocz</h3>
                             <div class="articulo_titulo">
                                 <h2>Flash de crisis on Infinite Earths conoce a The Flash Ezra Miller – Cameol  crisis on Infinite Earths conoce a The</h2>
+                                <p class="Fecha">Leer mas</p>
                             </div>
-                            <p class="Fecha">Leer mas</p>
+                           
                         </div>
                         <div class="contenedor">
                             <img src="./Img/RAION-1.jpg" alt="">
