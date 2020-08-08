@@ -3,3 +3,42 @@
     padding: 0;
     font-family: 'Open Sans Condensed', sans-serif ;
 }
+
+
+
+
+/*-----------------Navbar------------*/
+.Nabar{
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    float: right;
+    padding: 30px;
+}
+.Nabar img{
+    width: 160px;
+   text-align: center;
+   position: fixed;
+}
+.Nabar ul{
+    margin-top: 15%;
+    list-style: none;
+    position: fixed;
+}
+.Nabar ul a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.Nabar ul a:hover{
+    color: #8b2006;
+   
+}
+
+/*-----------------Header--------------*/
+header{
+    width: 88%;
+    height: 600px;
+    background-color: #8b2006;
+}
