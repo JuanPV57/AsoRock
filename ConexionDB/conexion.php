@@ -4,7 +4,7 @@
         'localhost',
         'root',
         '',
-        'asorock'
+        'AsoRock'
     );
 
     if (!$conexionDB){

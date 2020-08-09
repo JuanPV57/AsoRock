@@ -9,7 +9,7 @@
         <div class="form">
             <h4>Escribe el Articulo</h4>
             <br>
-            <form action="Crear_Articulos.php" method="POST" enctype="multipart/form-data">
+            <form action="../Admin/Crear_Articulos.php" method="POST" enctype="multipart/form-data">
               
                 <div class="form-group col-md-11">
                     <label class=" text-danger text-center h6">Titulo</label>
@@ -52,6 +52,7 @@
             </form>
 
         </div>
+
        
     </div>
     <script src="./Js/main.js"></script>
