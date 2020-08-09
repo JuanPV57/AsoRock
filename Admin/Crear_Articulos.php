@@ -19,10 +19,10 @@
         $contenido = $_POST['contenido'];
 
         $query = "INSERT INTO articulos (Titulo, Slug, Autor, Contenido, Imagen, Fecha) values('$titulo', '$slug', '$autor', '$contenido', '$nombreImagen', '$fecha')";
-        $resultado = mysqli_query($conexion,$query);
+        $resultado = mysqli_query($conexionDB,$query);
 
         if(!$resultado){
-            echo "No se pudo agregar a la base de datos";
+            die("No se pudo agregar a la base de datos");
         }
 
         header("Location: ../Admin/Lista_Crear_Articulo.php");

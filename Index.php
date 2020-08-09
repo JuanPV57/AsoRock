@@ -21,7 +21,22 @@
 </head>
 <body>
     
-   
+    <?php 
+    include('./ConexionDB/conexion.php');
+
+    $query = "SELECT * FROM articulos order by Id";
+    $resultado = mysqli_query($conexionDB, $query);
+
+    while($row = mysqli_fetch_array($resultado)){?>
+    <a href="Articulo/view.php?id=<?php echo $row['Id']?>">
+
+        <div style="border: solid 3px #000;">
+            <img src="./ImgPublicaciones/Articulos/<?php echo $row['Imagen']?>" alt="">
+            <h1><?php echo $row['Titulo']?></h1>
+        </div>
+    </a>
+        
+    <?php }?>
 
     <script src="./Assets/Js/jquery.js"></script>
     <script src="./Assets/Js/Scroll.js"></script>
