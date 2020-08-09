@@ -8,6 +8,6 @@
     );
 
     if (!$conexionDB){
-        echo "No se puede conectar a la base de datos";
+        die("No se puede conectar a la base de datos");
     };
 ?>
