@@ -9,11 +9,13 @@
 
 /*-----------------Navbar------------*/
 .Nabar{
-    width: 10%;
+    width: 12%;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
-    position: fixed;
+    background-color: rgb(226, 64, 64);
     padding: 30px;
+    z-index: 1000;
+    float: right;
+    position: fixed;
 }
 .Nabar img{
     width: 160px;
@@ -38,19 +40,96 @@
 
 /*-----------------Seccion--------------*/
 .seccion{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .seccion header{
     width: 100%;
     height: 550px;
-    background-color: #8b2006;
+    overflow: hidden;
+    
 }
+/*-----------------Slider--------------*/
+
+
+
+.seccion header .slider-contenedor{
+    width: 100%;
+    display: flex;
+    
+}
+
+.seccion header .contenido-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.seccion header .contenido-slider img{
+    margin-top: -60px;
+    width: 100%;
+    height: 560px;
+}
+
+.seccion header .contenido-slider .slider-content{
+    position: absolute;
+    text-align: center;
+    margin: 10%;
+}
+
+.seccion header .contenido-slider .slider-content h1{
+    color: #ffffff;
+    font-size: 2em;
+}
+/*-----------------Gif--------------*/
 .seccion .gif img{
     width: 100%;
-    height: 70px;
+    height: 50px;
 }
-.seccion .parallax img{
-    width: 100%;
-    height: 800px;
+/*-----------------Parallax--------------*/
+.seccion .contenedor{
     margin-top: -5px;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.seccion .parallax{
+    width: 100%;
+    background-image:url(/Img/RAION-1.jpg);
+    background-size: cover;
+    height: 1000px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.seccion .contenedor .parallax .bg{  
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 5%;
+}
+.seccion .contenedor .parallax .bg2{  
+    width: 760px;
+    height: 400px;
+    
+}
+/*----------------Facebook-------------*/
+.seccion .Facebook{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.seccion .bg-Facebook{
+    width: 900px;
+    height: 60px;
+    background-color: rgb(24, 148, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
